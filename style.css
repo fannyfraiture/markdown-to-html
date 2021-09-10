@@ -6,6 +6,8 @@ body {
     line-height: 1,7rem;
 }
 
+
+
 h1 {
     
     font-family: 'Kaisei Tokumin', serif;
@@ -20,7 +22,59 @@ header p {
     text-align: center;
 }
 
-section h2 {
-font-size: 2rem;
+section h3 {
+    font-size: 1,7rem;
+    text-decoration: line-through;
+    letter-spacing: 4mm;
+    text-align: center;
+}
 
+table {
+    border-collapse: collapse;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table, tr, td {
+    border: 1px solid;
+    padding: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+section h2 {
+    font-size: 2rem;
+    letter-spacing: 3mm;
+    border-bottom: 1px solid pink; 
+}
+
+ul {
+    font-size: 1,5rem;
+}
+li > ul {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: pink;
+    width: 6rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 500;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+nav a, nav p {
+    display: inline-block;
 }

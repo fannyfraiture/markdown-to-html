@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;800&display=swap');
+
 body {
-    font-family: 'monospace', sans-serif;
-    padding: 1.5rem;
-    line-height: 1.8rem;
+    font-family: 'Kaisei Tokumin', serif;
+    padding: 2rem;
+    line-height: 1,7rem;
+}
+
+h1 {
+    
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 4rem;
+    color: pink; 
+    text-align: center;  
+}
+
+header p {
+    font-style: italic;
+    font-size: 1,6rem;
+    text-align: center;
+}
+
+section h2 {
+font-size: 2rem;
+
 }
